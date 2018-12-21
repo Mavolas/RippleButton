@@ -14,11 +14,20 @@
     
 
     <com.mavolas.ripplebutton.widget.RippleButton
-
+        android:id="@+id/mybutton"
         android:layout_width="match_parent"
-        android:background="@android:color/holo_purple"
+        android:layout_margin="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
         android:text="我是按钮"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:layout_height="100dp" />
+
+    <Button
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
 
 
 </LinearLayout>
